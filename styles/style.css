@@ -20,6 +20,21 @@ img{
 }
 
 
+.btn{
+    padding: 0.9rem 1.4rem;
+    color: greenyellow;
+    background-color: blue;
+    border-radius: 10px;
+    border: 2px solid white;
+}
+
+.btn:hover{
+    background-color: transparent;
+    border: 2px solid greenyellow;
+    color: antiquewhite;
+    border-radius: 1.2rem;
+}
+
 
 /* header style start */
 
@@ -91,5 +106,60 @@ img{
     background: linear-gradient(160deg, red 56.54%,  green 44.46%);
     color: rgb(232, 244, 13);
     border: .1rem solid rgba(246, 242, 243, 0.9);
+    border-radius: 10px;
 }
 
+/* header style end */
+
+/* home style start */
+
+
+.home{
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/bg2.jpg);
+    background-position: center center;
+    background-size: cover;
+    /* height: 100vh; */
+    background-repeat: no-repeat;
+    padding: 1rem 5%;
+    padding-top: 7rem;
+}
+
+.home-container{
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    
+}
+
+.home-content{
+    flex: 1 1 45rem;
+}
+
+
+.home-content h3{
+    font-size: 1.2rem;
+    color: rgba(222, 247, 36, 0.479);
+    margin-bottom: 1rem;
+}
+.home-content h1{
+    font-size: 3rem;
+    color: rgb(240, 9, 9);
+    margin-bottom: 1rem;
+}
+
+.home-content h1 span{
+    color: greenyellow;
+    font-weight: 800;
+}
+.home-content p{
+    font-size: 1rem;
+    color: #f9f9f9;
+    margin-bottom: 3rem;
+    opacity: .6;
+    
+}
+
+
+.home-image{
+    flex: 1 1 45rem;
+}
