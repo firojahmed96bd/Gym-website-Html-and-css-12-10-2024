@@ -253,21 +253,27 @@ img{
     padding: 3rem 5%;
 }
 
-.service-heading{
+.heading-title{
     padding: 3rem;
     align-items: center;
     text-align: center;
 }
-.service-heading h3{
+.heading-title h3{
    font-size: 2rem;
    color: rgb(232, 207, 207);;
    padding: 1rem 0;
    opacity: .9;
    font-weight: 500;
 }
-.service-heading h1{
+.heading-title h1{
     font-size: 4rem;
     color: tomato;
+    padding: 1rem 0;
+    font-weight: 500;
+ }
+ .heading-title  span{
+    font-size: 5rem;
+    color: rgb(150, 33, 12);
     padding: 1rem 0;
     font-weight: 500;
  }
@@ -313,4 +319,41 @@ img{
     font-size: 1rem;
     color: rgb(216, 224, 231);
     margin-bottom: 2rem;
+}
+
+.trainer-expret{
+    padding: 4rem 5%;
+}
+
+.trainer-container{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.trainer-card{
+    position: relative;
+    flex: 1 1 300px;
+}
+
+.trainer-content{
+   position: absolute;
+   bottom: 0;
+   background: linear-gradient(60deg,rgb(193, 140, 240)56%,rgb(25, 202, 161))44%;
+   width: 100%;
+   height: 200px;
+   padding: 2rem;
+   text-align: center;
+   align-items: center;
+   border-radius: 10px;
+   overflow: hidden;
+}
+.trainer-content h4{
+   color: azure;
+   font-size: 2rem;
+   padding: 2rem;
+   text-align: center;
+   margin-left: -100px;
+   margin-top: 20px;
+   transform: rotate(30deg);
 }
