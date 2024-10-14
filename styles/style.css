@@ -357,3 +357,101 @@ img{
    margin-top: 20px;
    transform: rotate(30deg);
 }
+
+
+.contact{
+    padding: 1rem 5%;
+    background-image: url(/images/testimonials.jpg);
+}
+
+.contact-container{
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    justify-content: center;
+}
+.contact-info{
+    flex: 1 1 45rem;
+    background-color: rgba(146, 135, 135, 0.6);
+    border-radius: 1.5rem;
+    padding: 2rem;
+    height: 100vh;
+    text-align: center;
+    border: 1px solid red;
+}
+
+.contact-info h1{
+    font-size: 1.6rem;
+    color: white;
+    margin-bottom: 1rem;
+}
+.form-group {
+    position: relative;
+    margin-bottom: 2rem;
+}
+  
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 12px 15px;
+    font-size: 16px;
+    border: 2px solid #e0e0e0;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    transition: border-color 0.3s ease;
+}
+  
+input:focus,
+textarea:focus {
+    border-color: #4CAF50;
+    background-color: #fff;
+  }
+  
+textarea {
+    resize: none;
+    height: 160px;
+    margin-bottom: 1rem;
+  }
+  
+label {
+    position: absolute;
+    top: 50%;
+    left: 15px;
+    transform: translateY(-50%);
+    font-size: 16px;
+    color: #999;
+    pointer-events: none;
+    transition: all 0.3s ease;
+}
+  
+input:focus + label,
+textarea:focus + label,
+input:valid + label,
+textarea:valid + label {
+    top: 0;
+    left: 10px;
+    font-size: 16px;
+    color: #4CAF50;
+    background-color: #fff;
+    padding: 0 5px;
+}
+button {
+    width: 100%;
+    padding: 14px 0;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+button:hover {
+    background-color: #45a049;
+}
+
+
+.contact-image{
+    flex: 1 1 45rem;
+}
