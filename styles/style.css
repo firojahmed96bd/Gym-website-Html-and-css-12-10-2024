@@ -323,6 +323,7 @@ img{
 
 .trainer-expret{
     padding: 4rem 5%;
+    background: url(../images/BG\ img.jpg);
 }
 
 .trainer-container{
@@ -361,7 +362,7 @@ img{
 
 .contact{
     padding: 1rem 5%;
-    background-image: url(/images/testimonials.jpg);
+    background-image: url(../images/testimonials.jpg);
 }
 
 .contact-container{
